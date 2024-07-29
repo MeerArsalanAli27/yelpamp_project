@@ -1,0 +1,40 @@
+<% layout('layouts/boilerplate')%>
+
+<div class=" d-flex justify-content-center align-items-center mt-1">
+    <div class="row offset-0.5">
+        <div class="col-md-20" style="width:40vw; ">
+        <div class=" card shadow mb-4">
+            <img src="/stylesheets/cameron-vaughan-0AV7XLABuZk-unsplash (1).jpg" alt="" srcset="" class="card-img-top">
+            <div class="card-body">
+                <h5>register</h5>
+                <form action="/register" class="validated-form" method="post" novalidate>
+                    <div class="mb-3">
+                
+                        <label for="username" class="form-label">username:</label>
+                        <input class="form-control" type="text" name="username" id="username" required>
+                    </div>
+                    <div class="mb-3">
+                
+                        <label for="email" class="form-label">email:</label>
+                        <input class="form-control" type="email" name="email" id="email" required>
+                        <div class="valid-feedback">
+                            looks good!!!
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                
+                        <label for="password" class="form-label">password:</label>
+                        <input  class="form-control" type="password" name="password" id="password" required>
+                        <div class="valid-feedback">looks good</div>
+                    </div>
+                    <button class="btn btn-success">register</button>
+                </form>
+
+               
+        </div>
+        </div>
+        </div>
+    
+    </div>
+    
+    </div>

@@ -1,0 +1,45 @@
+body{
+
+    background-image: url('./cameron-vaughan-0AV7XLABuZk-unsplash\ \(1\).jpg');
+     background-position: center;
+     background-size:cover;
+     background-repeat: no-repeat;
+     
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+.heading{
+   padding-left: 10vw;
+}
+
+.navi{
+    margin-left: 45vw;
+}
+.btn{
+    color: rgb(13, 13, 227);
+}
+footer{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    padding-top: 5vh;
+}
+.nav-link:hover{
+    border-radius: 20px;
+    background-color: white;
+   
+    color: rgb(10, 10, 222);
+          padding: aqua;
+}
+.nav-link.active{
+   border-bottom-color: blue;
+   color: rgb(10, 10, 222)
+    
+}
